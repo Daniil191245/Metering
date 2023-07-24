@@ -16,7 +16,7 @@ body{
 }
 section{
     padding: 50px 0;
-    background: linear-gradient(red 0%, orange 10%, orange 30%, yellow 50%, yellow 70%, green 90%, green 100%);;
+    /* background: linear-gradient(red 0%, orange 10%, orange 30%, yellow 50%, yellow 70%, green 90%, green 100%); */
 background: linear-gradient(yellow 10%,#fff 90%);
 }
 h1{
