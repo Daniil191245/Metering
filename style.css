@@ -1,0 +1,61 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+ul,ol{
+    list-style: none;
+}
+body{
+    font-family: 'Montserrat', sans-serif;
+}
+.container{
+    max-width: 1200px;
+    margin: 0 auto;
+    padding: 0 15px;
+}
+section{
+    padding: 50px 0;
+    background: linear-gradient(red 0%, orange 10%, orange 30%, yellow 50%, yellow 70%, green 90%, green 100%);;
+background: linear-gradient(yellow 10%,#fff 90%);
+}
+h1{
+    font-family: 'Montserrat', sans-serif;
+    font-weight: 700;
+    text-align: center;
+    margin-bottom: 50px;
+}
+.text-list-item{
+    font-size: 20px;
+line-height: 15px; 
+margin: 10px;
+}
+.list-text{
+    margin-bottom:5em;
+}
+.text-lorem{
+    font-family: Montserrat, sans-serif;
+    font-weight: 500;
+    font-style: normal;
+    font-size: 1em;
+    line-height: 1.2em;
+    color: blueviolet;
+}
+.text-lorem::selection{
+    background-color: darkgrey;
+}
+.two-lorem{
+    font-size: 1.5em;
+    line-height: 3em;
+    color: green;
+}
+.three-text{
+    font-size: 0.6em;
+    line-height: 5em;
+    color: brown;
+}
+.four-text{
+    font-size: 2em;
+    line-height: 0.8em;
+    color: darkblue;
+}
