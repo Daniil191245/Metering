@@ -9,3 +9,22 @@ ul,ol{
 html {
     font-size: 17px;
 }
+h1{
+    text-align: center;
+}
+.list-item .list-text:first-child{
+    font-size: 3.4rem;
+    color: blueviolet;
+}
+.list-item .list-text:nth-child(even){
+    font-size: 0.8rem;
+    color: darkgreen;
+}
+.list-item .list-text:nth-child(3n){
+    font-size: 2.1rem;
+    color: chocolate;
+}
+.list-item .list-text:last-child{
+    font-size: 1.2rem;
+    color: brown;
+}
